@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+    <!-- Sunset / Dusk Sky -->
+    <path
+        android:pathData="M0,0h400v200h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="200"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2E0E1B" />
+                <item android:offset="0.6" android:color="#1F1528" />
+                <item android:offset="1.0" android:color="#0B0D14" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Multi-lane Highway Road -->
+    <path
+        android:fillColor="#151722"
+        android:pathData="M0,140 L400,140 L400,200 L0,200 Z" />
+    <path
+        android:strokeColor="#44FF9500"
+        android:strokeWidth="1.5"
+        android:pathData="M0,170 L400,170" />
+    <!-- Modern Pedestrian Skywalk Arch & Truss -->
+    <path
+        android:strokeColor="#FF2A4B"
+        android:strokeWidth="4"
+        android:pathData="M50,140 L50,75 L350,75 L350,140" />
+    <!-- Glass Canopy Walkway -->
+    <path
+        android:fillColor="#4400E5FF"
+        android:pathData="M50,70 L350,70 L350,85 L50,85 Z" />
+    <!-- Trusses / Diagonal Tension Cables -->
+    <path
+        android:strokeColor="#66FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M80,70 L110,85 M140,70 L170,85 M200,70 L230,85 M260,70 L290,85 M320,70 L350,85" />
+    <!-- Elevator Towers -->
+    <path
+        android:fillColor="#FF5E3A"
+        android:pathData="M40,65 L60,65 L60,140 L40,140 Z M340,65 L360,65 L360,140 L340,140 Z" />
+    <!-- Assembled Citizen Silhouettes -->
+    <path
+        android:fillColor="#E5E9F0"
+        android:pathData="M110,63m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0 M105,70 L115,70 L115,85 L105,85 Z" />
+    <path
+        android:fillColor="#E5E9F0"
+        android:pathData="M130,62m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0 M125,69 L135,69 L135,85 L125,85 Z" />
+    <path
+        android:fillColor="#E5E9F0"
+        android:pathData="M240,63m-5,0a5,5 0 1,0 10,0a5,5 0 1,0 -10,0 M235,70 L245,70 L245,85 L235,85 Z" />
+</vector>

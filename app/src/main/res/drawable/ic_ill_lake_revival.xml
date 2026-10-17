@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="180dp"
+    android:viewportWidth="400"
+    android:viewportHeight="180">
+    <!-- Sky Gradient -->
+    <path
+        android:pathData="M0,0h400v180h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="0"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0D253A" />
+                <item android:offset="0.6" android:color="#083E4B" />
+                <item android:offset="1.0" android:color="#031C28" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Morning Sun over Lake -->
+    <path
+        android:pathData="M200,65m-35,0a35,35 0 1,0 70,0a35,35 0 1,0 -70,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="30"
+                android:endX="200"
+                android:endY="100"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFB703" />
+                <item android:offset="1.0" android:color="#00FB8500" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Distant Green Hills -->
+    <path
+        android:fillColor="#155D4E"
+        android:pathData="M0,115 Q90,80 180,105 T360,95 Q380,100 400,110 L400,180 L0,180 Z" />
+    <path
+        android:fillColor="#1B7861"
+        android:pathData="M0,125 Q120,100 240,120 T400,115 L400,180 L0,180 Z" />
+
+    <!-- Lake Water Surface with Shimmering Waves -->
+    <path
+        android:pathData="M0,130 C120,125 280,135 400,130 L400,180 L0,180 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="130"
+                android:endX="200"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00B4D8" />
+                <item android:offset="0.5" android:color="#0077B6" />
+                <item android:offset="1.0" android:color="#03045E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ripple waves -->
+    <path
+        android:strokeColor="#88CAF0F8"
+        android:strokeWidth="1.5"
+        android:pathData="M80,145 Q130,140 180,145 M220,152 Q280,148 340,152 M140,165 Q200,160 260,165" />
+
+    <!-- Lush Wetland Reeds & Plants at Bottom Edges -->
+    <path
+        android:strokeColor="#2EC4B6"
+        android:strokeWidth="2.5"
+        android:pathData="M20,180 L30,140 M28,180 L42,145 M38,180 L52,142 M370,180 L360,138 M378,180 L368,144 M385,180 L378,140" />
+
+    <!-- Volunteer Clean-up badge / boat -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M185,138 L215,138 L210,146 L190,146 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M200,128 L200,138 M200,129 L208,133 L200,135" />
+</vector>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="180dp"
+    android:viewportWidth="400"
+    android:viewportHeight="180">
+    <!-- Sky with Deep Radiant Blue Gradient -->
+    <path
+        android:pathData="M0,0h400v180h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0B132B" />
+                <item android:offset="0.5" android:color="#1C2541" />
+                <item android:offset="1.0" android:color="#3A506B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Brilliant Golden Sun with Energy Rays -->
+    <path
+        android:pathData="M310,60m-35,0a35,35 0 1,0 70,0a35,35 0 1,0 -70,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="310"
+                android:startY="25"
+                android:endX="310"
+                android:endY="95"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFD166" />
+                <item android:offset="1.0" android:color="#FFF39C12" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Sun Ray Accents -->
+    <path
+        android:strokeColor="#66FFD166"
+        android:strokeWidth="2"
+        android:pathData="M310,12 L310,20 M310,100 L310,108 M262,60 L270,60 M350,60 L358,60 M276,26 L282,32 M338,88 L344,94 M276,94 L282,88 M338,32 L344,26" />
+
+    <!-- City Skyline Silhouettes -->
+    <path
+        android:fillColor="#15203A"
+        android:pathData="M20,180 L20,100 L55,100 L55,180 Z M65,180 L65,75 L110,75 L110,180 Z M120,180 L120,90 L160,90 L160,180 Z M175,180 L175,65 L225,65 L225,180 Z" />
+
+    <!-- Modern Rooftop Base -->
+    <path
+        android:fillColor="#243356"
+        android:pathData="M30,180 L370,180 L350,130 L50,130 Z" />
+
+    <!-- Slanted Solar Photovoltaic Panels with Electric Blue Sheen -->
+    <!-- Panel 1 -->
+    <path
+        android:pathData="M65,170 L145,170 L135,140 L75,140 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="105"
+                android:startY="140"
+                android:endX="105"
+                android:endY="170"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F5D4" />
+                <item android:offset="1.0" android:color="#0077B6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M105,140 L105,170 M70,155 L140,155" />
+
+    <!-- Panel 2 -->
+    <path
+        android:pathData="M160,170 L240,170 L230,140 L170,140 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="140"
+                android:endX="200"
+                android:endY="170"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F5D4" />
+                <item android:offset="1.0" android:color="#0077B6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M200,140 L200,170 M165,155 L235,155" />
+
+    <!-- Panel 3 -->
+    <path
+        android:pathData="M255,170 L335,170 L325,140 L265,140 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="295"
+                android:startY="140"
+                android:endX="295"
+                android:endY="170"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F5D4" />
+                <item android:offset="1.0" android:color="#0077B6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M295,140 L295,170 M260,155 L330,155" />
+</vector>

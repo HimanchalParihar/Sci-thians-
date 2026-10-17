@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="180dp"
+    android:viewportWidth="400"
+    android:viewportHeight="180">
+    <!-- Sky & City Horizon with Vibrant Indigo/Cyan/Crimson Gradient -->
+    <path
+        android:pathData="M0,0h400v180h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1A0933" />
+                <item android:offset="0.5" android:color="#0C1B33" />
+                <item android:offset="1.0" android:color="#06222E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Civic Sun / Aura -->
+    <path
+        android:pathData="M200,90m-65,0a65,65 0 1,0 130,0a65,65 0 1,0 -130,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="25"
+                android:endX="200"
+                android:endY="155"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#55FF3366" />
+                <item android:offset="0.6" android:color="#3300F5D4" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Background Skyline Silhouettes -->
+    <path
+        android:fillColor="#182A45"
+        android:pathData="M20,180 L20,110 L50,110 L50,130 L80,130 L80,95 L110,95 L110,180 Z" />
+    <path
+        android:fillColor="#153252"
+        android:pathData="M130,180 L130,80 L160,80 L160,180 Z M240,180 L240,85 L275,85 L275,180 Z M295,180 L295,105 L330,105 L330,180 Z M345,180 L345,120 L380,120 L380,180 Z" />
+
+    <!-- Centerpiece Civic Pillar & Dome -->
+    <path
+        android:fillColor="#00F5D4"
+        android:pathData="M175,180 L175,100 L185,100 L185,180 Z M215,180 L215,100 L225,100 L225,180 Z M195,180 L195,95 L205,95 L205,180 Z" />
+    <!-- Dome Arch -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M165,100 C165,65 235,65 235,100 Z" />
+    <!-- Torch / Saffron Star on top -->
+    <path
+        android:fillColor="#FF3366"
+        android:pathData="M196,52 L204,52 L200,42 Z" />
+
+    <!-- Digital Connectivity Lines / Circuit Network -->
+    <path
+        android:strokeColor="#6600F5D4"
+        android:strokeWidth="2"
+        android:pathData="M10,160 L60,160 L90,140 L150,140 M250,140 L310,140 L340,160 L390,160" />
+    <!-- Node Dots -->
+    <path
+        android:fillColor="#00F5D4"
+        android:pathData="M60,160m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0 M150,140m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0 M250,140m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0 M340,160m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+
+    <!-- Radiant Dynamic Flow Banner Waves at Bottom -->
+    <path
+        android:pathData="M0,150 Q100,135 200,155 T400,150 L400,180 L0,180 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="150"
+                android:endX="400"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#88FF3366" />
+                <item android:offset="0.5" android:color="#887209B7" />
+                <item android:offset="1.0" android:color="#8800F5D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

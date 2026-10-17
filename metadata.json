@@ -1,0 +1,6 @@
+{
+  "name": "Utopia",
+  "description": "Neutral civic-participation platform for India where citizens evaluate policies, submit suggestions, and organise campaigns across local, state, and central government.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

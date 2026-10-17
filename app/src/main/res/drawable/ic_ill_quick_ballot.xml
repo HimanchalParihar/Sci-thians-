@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="180dp"
+    android:viewportWidth="400"
+    android:viewportHeight="180">
+    <!-- Radiant Dynamic Radial Burst Background -->
+    <path
+        android:pathData="M0,0h400v180h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="90"
+                android:endX="400"
+                android:endY="180"
+                android:type="radial"
+                android:gradientRadius="220">
+                <item android:offset="0.0" android:color="#3A1C71" />
+                <item android:offset="0.5" android:color="#211042" />
+                <item android:offset="1.0" android:color="#0F0821" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Electric Burst Rays -->
+    <path
+        android:strokeColor="#33FF007F"
+        android:strokeWidth="1.5"
+        android:pathData="M200,90 L50,20 M200,90 L350,20 M200,90 L380,110 M200,90 L20,110 M200,90 L120,170 M200,90 L280,170" />
+
+    <!-- Center 3D Ballot Box -->
+    <path
+        android:fillColor="#7209B7"
+        android:pathData="M140,90 L200,65 L260,90 L200,115 Z" />
+    <path
+        android:fillColor="#560BAD"
+        android:pathData="M140,90 L200,115 L200,160 L140,135 Z" />
+    <path
+        android:fillColor="#480CA8"
+        android:pathData="M260,90 L200,115 L200,160 L260,135 Z" />
+
+    <!-- Ballot Slot on Top -->
+    <path
+        android:fillColor="#1D083A"
+        android:pathData="M180,85 L220,72 L224,75 L184,88 Z" />
+
+    <!-- Gold/Teal Glowing Ballot Paper Inserting into Box -->
+    <path
+        android:pathData="M185,40 L225,25 L215,80 L175,95 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="25"
+                android:endX="200"
+                android:endY="95"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F5D4" />
+                <item android:offset="1.0" android:color="#4CC9F0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Checkmark on Ballot Paper -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M188,60 L195,68 L212,50" />
+
+    <!-- Floating Confetti Stars -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M100,60 L104,50 L108,60 L118,64 L108,68 L104,78 L100,68 L90,64 Z M300,55 L303,47 L306,55 L314,58 L306,61 L303,69 L300,61 L292,58 Z" />
+    <path
+        android:fillColor="#FF007F"
+        android:pathData="M80,120m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0 M325,125m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0" />
+</vector>

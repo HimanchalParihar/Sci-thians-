@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+    <!-- Gradient Background -->
+    <path
+        android:pathData="M0,0h400v200h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="200"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0B1A2E" />
+                <item android:offset="0.6" android:color="#0F243A" />
+                <item android:offset="1.0" android:color="#090E16" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Raindrops in Sky -->
+    <path
+        android:strokeColor="#4400D2FF"
+        android:strokeWidth="1.5"
+        android:pathData="M50,20 L40,40 M120,15 L110,35 M220,25 L210,45 M320,10 L310,30 M380,30 L370,50 M80,60 L70,80 M270,55 L260,75" />
+    <!-- Stormwater Concrete Canal Embankment -->
+    <path
+        android:fillColor="#2A3547"
+        android:pathData="M0,130 L110,130 L160,195 L0,195 Z" />
+    <path
+        android:fillColor="#2A3547"
+        android:pathData="M400,130 L290,130 L240,195 L400,195 Z" />
+    <!-- Flowing Clean Water Channel -->
+    <path
+        android:pathData="M110,130 L290,130 L240,195 L160,195 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="130"
+                android:endX="200"
+                android:endY="195"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00D2FF" />
+                <item android:offset="1.0" android:color="#006699" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Water Ripple Wave lines -->
+    <path
+        android:strokeColor="#88FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M130,150 Q160,145 190,150 T250,150 M145,170 Q175,165 205,170 T245,170" />
+    <!-- Smart Sensor Monitor Box -->
+    <path
+        android:fillColor="#FF2A4B"
+        android:pathData="M95,100 L125,100 L125,130 L95,130 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M110,90 L110,100 M102,90 L118,90" />
+</vector>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="180dp"
+    android:viewportWidth="400"
+    android:viewportHeight="180">
+    <!-- Sky & Urban Atmosphere -->
+    <path
+        android:pathData="M0,0h400v180h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1A1829" />
+                <item android:offset="0.5" android:color="#211E3B" />
+                <item android:offset="1.0" android:color="#121324" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Street Tree Canopy Foliage -->
+    <path
+        android:fillColor="#1B4332"
+        android:pathData="M30,50m-35,0a35,35 0 1,0 70,0a35,35 0 1,0 -70,0 M85,60m-28,0a28,28 0 1,0 56,0a28,28 0 1,0 -56,0 M340,55m-30,0a30,30 0 1,0 60,0a30,30 0 1,0 -60,0 M380,45m-35,0a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
+    <path
+        android:fillColor="#2D6A4F"
+        android:pathData="M45,65m-25,0a25,25 0 1,0 50,0a25,25 0 1,0 -50,0 M355,65m-22,0a22,22 0 1,0 44,0a22,22 0 1,0 -44,0" />
+
+    <!-- Modern Wide Pedestrian Promenade Floor with Perspective -->
+    <path
+        android:pathData="M60,180 L140,85 L260,85 L340,180 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="85"
+                android:endX="200"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#3A3E59" />
+                <item android:offset="1.0" android:color="#1F2338" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Tactile Paving Strip (Yellow Braille Path for Accessibility) -->
+    <path
+        android:pathData="M185,180 L195,85 L205,85 L215,180 Z"
+        android:fillColor="#FFB703" />
+
+    <!-- Street Paver Texture Lines -->
+    <path
+        android:strokeColor="#52587A"
+        android:strokeWidth="1.5"
+        android:pathData="M130,105 L270,105 M115,125 L285,125 M95,150 L305,150" />
+
+    <!-- Protective Safety Bollards with Reflector Rings -->
+    <!-- Left Bollards -->
+    <path
+        android:fillColor="#E63946"
+        android:pathData="M85,145 L95,145 L95,180 L85,180 Z M110,120 L118,120 L118,150 L110,150 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M85,152 L95,152 L95,156 L85,156 Z M110,126 L118,126 L118,129 L110,129 Z" />
+
+    <!-- Right Bollards -->
+    <path
+        android:fillColor="#E63946"
+        android:pathData="M305,145 L315,145 L315,180 L305,180 Z M282,120 L290,120 L290,150 L282,150 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M305,152 L315,152 L315,156 L305,156 Z M282,126 L290,126 L290,129 L282,129 Z" />
+
+    <!-- Warm Modern Street Lamp Glow -->
+    <path
+        android:strokeColor="#8D99AE"
+        android:strokeWidth="2.5"
+        android:pathData="M335,170 L335,80 Q335,70 325,70 L315,70" />
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M310,70m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0" />
+</vector>

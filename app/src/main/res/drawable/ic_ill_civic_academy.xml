@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+    <!-- Gradient Background -->
+    <path
+        android:pathData="M0,0h400v200h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="200"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#210F33" />
+                <item android:offset="0.5" android:color="#14142B" />
+                <item android:offset="1.0" android:color="#0B0D17" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Radiant Star Halo -->
+    <path
+        android:pathData="M200,90m-60,0a60,60 0 1,0 120,0a60,60 0 1,0 -120,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="30"
+                android:endX="200"
+                android:endY="150"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#55FFD60A" />
+                <item android:offset="1.0" android:color="#009D4EDD" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Open Book of Constitution of India -->
+    <path
+        android:fillColor="#ECEFF4"
+        android:pathData="M110,130 C150,110 195,115 200,120 C205,115 250,110 290,130 L290,165 C250,145 205,150 200,155 C195,150 150,145 110,165 Z" />
+    <path
+        android:fillColor="#D8DEE9"
+        android:pathData="M198,120 L202,120 L202,156 L198,156 Z" />
+    <!-- Scales of Justice Emblem floating above -->
+    <!-- Balance Beam -->
+    <path
+        android:fillColor="#FFD60A"
+        android:pathData="M198,45 L202,45 L202,90 L198,90 Z M150,55 L250,55 L250,60 L150,60 Z" />
+    <!-- Left Scale -->
+    <path
+        android:strokeColor="#FFD60A"
+        android:strokeWidth="1.5"
+        android:pathData="M155,60 L140,80 M155,60 L170,80 M140,80 L170,80" />
+    <!-- Right Scale -->
+    <path
+        android:strokeColor="#FFD60A"
+        android:strokeWidth="1.5"
+        android:pathData="M245,60 L230,80 M245,60 L260,80 M230,80 L260,80" />
+    <!-- Five Knowledge Stars -->
+    <path
+        android:fillColor="#00E58F"
+        android:pathData="M70,70 L73,78 L81,79 L75,85 L77,93 L70,88 L63,93 L65,85 L59,79 L67,78 Z M330,70 L333,78 L341,79 L335,85 L337,93 L330,88 L323,93 L325,85 L319,79 L327,78 Z" />
+</vector>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+    <!-- Gradient Sky -->
+    <path
+        android:pathData="M0,0h400v200h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="200"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#2A0815" />
+                <item android:offset="0.5" android:color="#1A1424" />
+                <item android:offset="1.0" android:color="#0D101C" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Radiant Sun / Aura behind Parliament -->
+    <path
+        android:pathData="M200,120m-70,0a70,70 0 1,0 140,0a70,70 0 1,0 -140,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="50"
+                android:endX="200"
+                android:endY="190"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#66FF334B" />
+                <item android:offset="1.0" android:color="#00FFA200" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Parliament Colonnade & Central Dome Silhouette -->
+    <!-- Dome Base & Curve -->
+    <path
+        android:fillColor="#E5E9F0"
+        android:pathData="M165,115 C165,85 235,85 235,115 Z" />
+    <path
+        android:fillColor="#FF334B"
+        android:pathData="M197,72 L203,72 L203,85 L197,85 Z" />
+    <!-- Colonnade Columns -->
+    <path
+        android:fillColor="#D8DEE9"
+        android:pathData="M80,120 L320,120 L320,128 L80,128 Z" />
+    <path
+        android:fillColor="#D8DEE9"
+        android:pathData="M90,128 L96,128 L96,165 L90,165 Z M110,128 L116,128 L116,165 L110,165 Z M130,128 L136,128 L136,165 L130,165 Z M150,128 L156,128 L156,165 L150,165 Z M170,128 L176,128 L176,165 L170,165 Z M190,128 L196,128 L196,165 L190,165 Z M210,128 L216,128 L216,165 L210,165 Z M230,128 L236,128 L236,165 L230,165 Z M250,128 L256,128 L256,165 L250,165 Z M270,128 L276,128 L276,165 L270,165 Z M290,128 L296,128 L296,165 L290,165 Z M310,128 L316,128 L316,165 L310,165 Z" />
+    <!-- Base Pedestal -->
+    <path
+        android:fillColor="#4C566A"
+        android:pathData="M60,165 L340,165 L340,175 L60,175 Z" />
+    <path
+        android:fillColor="#2E3440"
+        android:pathData="M40,175 L360,175 L360,195 L40,195 Z" />
+    <!-- Digital Data Beam Particles -->
+    <path
+        android:strokeColor="#5500E5FF"
+        android:strokeWidth="1.5"
+        android:pathData="M50,40 L120,80 M350,40 L280,80 M200,20 L200,65" />
+</vector>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+    <!-- Gradient Sky -->
+    <path
+        android:pathData="M0,0h400v200h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="200"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#062419" />
+                <item android:offset="0.5" android:color="#0A1826" />
+                <item android:offset="1.0" android:color="#0B0D14" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Clean Road -->
+    <path
+        android:fillColor="#1F2330"
+        android:pathData="M0,150 L400,150 L400,200 L0,200 Z" />
+    <path
+        android:strokeColor="#4400E58F"
+        android:strokeWidth="2"
+        android:pathData="M0,175 L60,175 M100,175 L160,175 M200,175 L260,175 M300,175 L360,175" />
+    <!-- Electric Transit Bus Body -->
+    <path
+        android:fillColor="#00E58F"
+        android:pathData="M80,80 L310,80 C325,80 335,90 335,105 L335,145 C335,150 330,155 325,155 L75,155 C70,155 65,150 65,145 L65,95 C65,85 70,80 80,80 Z" />
+    <!-- Bus Windows -->
+    <path
+        android:fillColor="#141E28"
+        android:pathData="M80,90 L125,90 L125,115 L80,115 Z M135,90 L180,90 L180,115 L135,115 Z M190,90 L235,90 L235,115 L190,115 Z M245,90 L290,90 L290,115 L245,115 Z M300,90 L325,90 L325,120 L300,120 Z" />
+    <!-- Electric Lightning Bolt Motif -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M200,125 L215,125 L208,137 L222,137 L202,152 L206,139 L196,139 Z" />
+    <!-- Wheels -->
+    <path
+        android:fillColor="#111318"
+        android:pathData="M110,155m-18,0a18,18 0 1,0 36,0a18,18 0 1,0 -36,0" />
+    <path
+        android:fillColor="#00E58F"
+        android:pathData="M110,155m-8,0a8,8 0 1,0 16,0a8,8 0 1,0 -16,0" />
+    <path
+        android:fillColor="#111318"
+        android:pathData="M285,155m-18,0a18,18 0 1,0 36,0a18,18 0 1,0 -36,0" />
+    <path
+        android:fillColor="#00E58F"
+        android:pathData="M285,155m-8,0a8,8 0 1,0 16,0a8,8 0 1,0 -16,0" />
+    <!-- Overhead Pantograph / Charger -->
+    <path
+        android:strokeColor="#00E58F"
+        android:strokeWidth="3"
+        android:pathData="M190,80 L205,55 L225,55 M205,55 L220,80" />
+</vector>

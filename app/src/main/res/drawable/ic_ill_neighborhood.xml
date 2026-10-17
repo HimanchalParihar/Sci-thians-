@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="180dp"
+    android:viewportWidth="400"
+    android:viewportHeight="180">
+    <!-- Sky with Dusk Indigo & Purple Gradient -->
+    <path
+        android:pathData="M0,0h400v180h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="400"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1F1338" />
+                <item android:offset="0.6" android:color="#2E1B4E" />
+                <item android:offset="1.0" android:color="#141126" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Warm Crescent Moon & Star -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M70,45 C65,55 50,55 45,45 C50,40 55,40 70,45 Z" />
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M90,35m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0 M130,50m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0" />
+
+    <!-- Community Houses & Townhall Buildings -->
+    <!-- House 1 Left -->
+    <path
+        android:fillColor="#4A306D"
+        android:pathData="M30,180 L30,120 L65,95 L100,120 L100,180 Z" />
+    <path
+        android:fillColor="#FF85A1"
+        android:pathData="M25,120 L65,90 L105,120 Z" />
+    <!-- Window with warm light -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M55,130 L75,130 L75,150 L55,150 Z" />
+
+    <!-- Center Ward Office / Community Hall -->
+    <path
+        android:fillColor="#3D295A"
+        android:pathData="M140,180 L140,105 L260,105 L260,180 Z" />
+    <!-- Clock Tower / Emblem -->
+    <path
+        android:fillColor="#5A3E85"
+        android:pathData="M180,105 L180,75 L220,75 L220,105 Z" />
+    <path
+        android:fillColor="#FF3366"
+        android:pathData="M175,75 L200,55 L225,75 Z" />
+    <!-- Clock Dial -->
+    <path
+        android:fillColor="#00F5D4"
+        android:pathData="M200,85m-6,0a6,6 0 1,0 12,0a6,6 0 1,0 -12,0" />
+    <!-- Windows & Pillars -->
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M155,120 L175,120 L175,145 L155,145 Z M225,120 L245,120 L245,145 L225,145 Z" />
+    <path
+        android:fillColor="#00F5D4"
+        android:pathData="M188,140 L212,140 L212,180 L188,180 Z" />
+
+    <!-- House 2 Right -->
+    <path
+        android:fillColor="#4A306D"
+        android:pathData="M300,180 L300,120 L335,95 L370,120 L370,180 Z" />
+    <path
+        android:fillColor="#FF85A1"
+        android:pathData="M295,120 L335,90 L375,120 Z" />
+    <path
+        android:fillColor="#FFD166"
+        android:pathData="M325,130 L345,130 L345,150 L325,150 Z" />
+
+    <!-- Community Green Lawn & Park Trees -->
+    <path
+        android:fillColor="#06D6A0"
+        android:pathData="M115,140m-20,0a20,20 0 1,0 40,0a20,20 0 1,0 -40,0 M285,140m-20,0a20,20 0 1,0 40,0a20,20 0 1,0 -40,0" />
+    <path
+        android:strokeColor="#8338EC"
+        android:strokeWidth="4"
+        android:pathData="M115,180 L115,160 M285,180 L285,160" />
+
+    <!-- Foreground Town Square Cobblestone Ground -->
+    <path
+        android:pathData="M0,165 Q200,155 400,165 L400,180 L0,180 Z"
+        android:fillColor="#241B3B" />
+</vector>
